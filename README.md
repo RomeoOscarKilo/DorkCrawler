@@ -4,6 +4,7 @@ Crawl Imgur via Google Dorks
 Requirements
 ---------------
 BS4
+
 requests
 
 What it does
