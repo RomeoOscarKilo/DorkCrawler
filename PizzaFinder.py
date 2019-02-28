@@ -37,7 +37,7 @@ i = 0
 while i < 10 :
     UserFinder(i * 10)
     i += 1
-    time.sleep(5)
+    time.sleep(15)
 
 
 print("Done")
