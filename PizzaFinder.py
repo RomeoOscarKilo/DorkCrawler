@@ -20,7 +20,6 @@ except:
 def UserFinder(page):
     try:
         r = requests.get('https://www.google.com/search?q=frontpage+screenshot+pizza+site%3Aimgur.com%2Fuser&filter=0&start=' + str(page))
-        print(r)
     except:
         print("Please update google get string, must include filter=0 , a query and start= for this to work")
     soup = BeautifulSoup(r.text , 'html.parser')
