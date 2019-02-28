@@ -29,7 +29,7 @@ def UserFinder(page):
         url = result.contents[0]
         print("here")
         print(url)
-        webbrowser.open_new_tab(url)
+        webbrowser.open_new_tab(url+ "/about")
     return
 
 
