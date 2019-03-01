@@ -26,7 +26,6 @@ def UserFinder(page):
     results = soup.find_all('cite')
     for result in results:
         url = result.contents[0]
-        print("here")
         print(url)
         webbrowser.open_new_tab(url+ "/about")
     return
