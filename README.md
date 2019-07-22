@@ -1,5 +1,5 @@
-# ImgurCrawler
-Crawl Imgur via Google Dorks
+# DorkCrawler
+Crawl google via Google Dorks
 
 Requirements
 ---------------
@@ -9,5 +9,5 @@ requests
 
 What it does
 ---------------------------------------------------------------------
-ImgurCrawler crawls Imgur via google docs, the current example string 
+DorkCrawler crawls google via google dorks, the current example string 
 returns all users who have screenshot, pizza and frontpage in their bio
